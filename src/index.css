@@ -34,7 +34,7 @@ a:link {
 }
 
 a:visited {
-  color: red;
+  color: maroon;
   padding: 1em;
 }
 
@@ -106,10 +106,13 @@ a:hover {
   min-height: 200px;
  }
  .Character.individual {
-  width: 30%;
-  margin: 20% 35%;
+  width: 20%;
+  /* margin: 20% 35%; */
+  margin: 15% 41%;
   padding: 1em;
   border: solid grey;
+  justify-content: center;
+
  }
  .Character li {
   list-style: none;
