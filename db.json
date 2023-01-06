@@ -305,14 +305,24 @@
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/argus_filch.png"
     },
     {
-      "character": "jnkwsw",
-      "nickname": "wdqwdcws",
-      "hogwartsHouse": "xcscxsw",
-      "interpretedBy": "cdcdsc",
-      "spell": "dcdsc",
-      "use": "cdd",
-      "child": "dwcdwe",
+      "character": "Lucius Malfoy",
+      "nickname": "Lucius",
+      "hogwartsHouse": "Slytherin",
+      "interpretedBy": "Jason Isaacs",
+      "spell": "Avada Kedavra",
+      "use": "The Killing Curse",
+      "child": "Draco Malfoy",
       "id": 24
+    },
+    {
+      "character": "Peter Pettigrew",
+      "nickname": "Scabbers",
+      "hogwartsHouse": "Gryffindor",
+      "interpretedBy": "Timothy Spall",
+      "spell": "Animagus Reversal Spell",
+      "use": "Turns Animagus back into its human form ",
+      "child": "Jace Hadrian, Kayla Emily Pettigrew",
+      "id": 25
     }
   ]
 }

@@ -44,6 +44,7 @@ function AddCharacterForm({characters, setCharacters, API}) {
                 <input value={newForm.spell} onChange={handleChange} type="text" name="spell" placeholder="Spell"/> <br />
                 <input value={newForm.use} onChange={handleChange} type="text" name="use" placeholder="Use"/> <br />
                 <input value={newForm.child} onChange={handleChange} type="text" name="child" placeholder="Child"/> <br />
+                <input value={newForm.image} onChange={handleChange} type="text" name="image" placeholder="Image URL" /> <br /> 
                 <input type="submit" value="Add Character" /> <br />
             </div>
         </form>

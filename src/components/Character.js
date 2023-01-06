@@ -21,8 +21,9 @@ function Character({singleCharacter}) {
     if (!finalChar) {
         return <h3>Loading...</h3>
     }
+    const conditionalClass = location.pathname === "/" ? "Character list" : "Character individual"
   return (
-    <div className="Character" id={finalChar.id}>
+    <div className={conditionalClass} id={finalChar.id}> 
         <li>
             {location.pathname === "/" ? (<>
                 <Link to={`/characters/${finalChar.id}`}><h4>{finalChar.character}</h4></Link>

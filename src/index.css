@@ -15,6 +15,7 @@
   display: inline-block; 
   flex-direction: column;
   max-height: 100vw;
+  zoom: 1.5;
 }
 
 .nav-wrapper {
@@ -28,11 +29,12 @@
 
 a:link {
   text-decoration: none;
-  padding: 1em;
+  /* padding: 1em; */
+  color: white;
 }
 
 a:visited {
-  color: darkmagenta;
+  color: red;
   padding: 1em;
 }
 
@@ -48,29 +50,37 @@ a:hover {
   display: block;
   margin-top: 3rem;
   padding-top: 25px;
+  margin-left: 0;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
+  zoom: 1.5;
+  background-color: rgba(228, 174, 13, 0.464);
+}
+
+.search-input {
+  margin: 0.5em;
 }
 
 .CharacterList {
-/* background-image: url("https://i.gifer.com/HvZB.gif"); */
-  /* background-image: url("https://i.makeagif.com/media/4-22-2015/Zo5Xgo.gif"); */
-  width: 100vw;
-  background-image: url("https://i.gifer.com/origin/28/289e4c805a92d12705d3c59bbfdbe67a_w200.gif");
-  height: 150vh;
-  position: absolute;
-  top: 10;
-  left: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 0;
-  z-index: auto;
+  background-image: url(https://i.gifer.com/HvZB.gif);
+    /* background-image: url(https://i.makeagif.com/media/4-22-2015/Zo5Xgo.gif); */
+    width: 100vw;
+    /* background-image: url(https://i.gifer.com/origin/28/289e4c8…_w200.gif); */
+    /* background-size: cover; */
+    /* height: 150vh; */
+    /* position: absolute; */
+    top: 10;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    padding: 0;
+    z-index: auto;
 }
 
 .CharactersList {
@@ -80,12 +90,11 @@ a:hover {
  
  .CharactersList ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
  }
  
- .Character {
+ .Character.list {
   width: 30%;
   margin: 2% 1%;
   padding: 1em;
@@ -96,7 +105,12 @@ a:hover {
   min-width: 100px;
   min-height: 200px;
  }
- 
+ .Character.individual {
+  width: 30%;
+  margin: 20% 35%;
+  padding: 1em;
+  border: solid grey;
+ }
  .Character li {
   list-style: none;
  }
@@ -121,5 +135,9 @@ a:hover {
 
  .ui {
   margin-top: 20vh;
+  height: 200px;
+  font-size: 24pt;
+  background-color: rgba(228, 174, 13, 0.464);
+  min-height: 600px;
   
 }
